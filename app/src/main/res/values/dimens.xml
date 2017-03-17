@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="column_count">1</integer>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_corner_radius">3dp</dimen>
+</resources>
