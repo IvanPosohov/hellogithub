@@ -2,6 +2,7 @@ package ivanp.hellogithub.utils;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.support.graphics.drawable.VectorDrawableCompat;
 import android.support.v4.content.ContextCompat;
 import android.widget.ImageView;
 
@@ -15,7 +16,8 @@ public final class Picasso {
         picasso = new com.squareup.picasso.Picasso.Builder(context)
                 //.indicatorsEnabled(true)
                 .build();
-        placeholderDrawable = ContextCompat.getDrawable(context, R.drawable.ic_image_placeholder);
+        //placeholderDrawable = ContextCompat.getDrawable(context, R.drawable.ic_image_placeholder);
+        placeholderDrawable = VectorDrawableCompat.create(context.getResources(), R.drawable.ic_image_placeholder, context.getTheme());
     }
 
     public void display(ImageView target, String url) {

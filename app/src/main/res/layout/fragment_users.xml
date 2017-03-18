@@ -42,6 +42,7 @@
             android:layout_width="96dp"
             android:layout_height="96dp"
             android:layout_gravity="center"
+            android:tint="@color/grey_light"
             app:srcCompat="@drawable/ic_magnify"/>
 
         <TextView
@@ -61,7 +62,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/divider"
+        android:background="@color/grey_light"
         android:orientation="horizontal"
         android:paddingTop="8dp">
 
@@ -97,7 +98,7 @@
         android:id="@+id/bigAvatarImageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/grey"
+        android:background="@color/grey_light"
         android:clickable="true"
         android:visibility="gone"/>
 
